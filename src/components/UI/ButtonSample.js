@@ -1,6 +1,6 @@
 "use client"
 
-export default function ButtonSample() {
+export default function ButtonSample(props) {
 
   function handleButtonClick() {
     alert("click!")
@@ -8,7 +8,7 @@ export default function ButtonSample() {
 
   return (
    
-    <button type="button" onClick={handleButtonClick}>ボタンサンプル</button>
+    <button type={props.type} onClick={handleButtonClick}>{props.text}</button>
    
   );
 }
