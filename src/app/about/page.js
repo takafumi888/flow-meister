@@ -1,6 +1,7 @@
 import ButtonSample from "../../components/UI/ButtonSample"
 import CardSample from "../../components/UI/CardSample"
 import TwoColumnSample from "../../components/layout/TwoColumnSample"
+import MenuSample from "../../components/UI/MenuSample"
 
 export default function About() {
 
@@ -14,6 +15,8 @@ export default function About() {
     <ButtonSample text="ボタン" type="submit" />
     <hr />
     <CardSample />
+    <hr />
+    <MenuSample />
     <div></div>
     </TwoColumnSample>
   );
